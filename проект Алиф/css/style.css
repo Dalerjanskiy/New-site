@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: inherit;
+    flex-wrap: wrap;
+}
+
+.card-opshi {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    flex-wrap: wrap;
+    padding-bottom: 300px;
+
+}
+
+
+.right-cards {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+
+.header {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.header-nav-list :nth-child(9) {
+    margin-right: 15px;
+}
+
+.header-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 5;
+    flex-wrap: wrap;
+}
+
+.header-nav-list__item {
+    margin: 0px 15px;
+    flex-wrap: wrap;
+}
+
+.header-nav-list__item {
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.header-nav-list__item:nth-child(9) {
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    flex-wrap: wrap;
+}
+
+.header-nav-list__item>a {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    transition: all ease 0.3s;
+    flex-wrap: wrap;
+}
+
+.header-nav-list__item>a:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.header-nav-list__item .logo:hover {
+    border: none;
+}
+
+.header-nav-list__item .button:hover {
+    border: none;
+}
+
+.button {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 4px;
+    width: 120px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.header-nav-list__item .button.login-button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+main>img {
+    min-width: 1555px;
+    height: 600px;
+    padding-left: 150px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.card-a {
+    color: #000;
+    margin-left: 50px;
+    padding: 4px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+.card-a:hover {
+    border: 2px dashed rgb(0, 0, 0);
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.card-img {
+    width: 900px;
+    height: 600px;
+    margin-left: 100px;
+    padding-bottom: 100px;
+
+    flex-wrap: wrap;
+}
+
+.button.card-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    border: 2px dashed, #fff;
+    flex-wrap: wrap;
+
+}
+
+.button.card-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 77, 77);
+}
+
+.card-poisk>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.card-poisk>button {
+    background-color: #000;
+    margin-left: 800px;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+
+}
+
+.card-poisk>button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 77, 77);
+}
+
+.card-fone {
+    background-image: url("../img/smart_house.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    min-height: 1000px;
+    padding-top: 55px;
+    padding-left: 55px;
+    min-width: 900px;
+    height: 600px;
+    flex-wrap: wrap;
+}
+
+.card-card {
+    color: turquoise;
+    margin-left: 50px;
+    padding: 4px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    font-size: 25px;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+
+.card-card:hover {
+    border: 2px dashed rgb(0, 0, 0);
+    text-decoration: underline;
+    color: rgb(0, 122, 37);
+}
+
+.card-footer>h1 {
+    font-size: 50px;
+    padding-top: 550px;
+}
+
+.card-footer>button {
+    background-color: #000;
+    margin-left: 800px;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+}
+
+.card-footer>button:hover {
+    color: rgb(0, 255, 47);
+    background-color: rgb(77, 77, 77);
+    border: 2px dashed rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.card-HTML>.card-h1-2 {
+    font-size: 50px;
+    padding-top: 550px;
+}
+
+.card-HTML>.card-card-2 {
+    color: turquoise;
+    margin-left: 50px;
+    width: 250px;
+    display: inline-block;
+    margin-left: 100px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 25px;
+    border-radius: 30px;
+
+}
+
+.card-HTML>.card-card-2:hover {
+    color: rgb(0, 255, 47);
+    background-color: rgb(77, 77, 77);
+    border: 2px dashed rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.s22-phone {
+    width: 500px;
+    height: 750px;
+    background-color: #dbdbe0ef;
+    border-radius: 20px;
+    padding: 25px 25px 0 25px;
+    color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.s22-phone>button {
+    font-size: 20px;
+    background-color: #000;
+    margin-left: 800px;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px
+}
+
+.s22-phone>button:hover {
+    color: rgb(0, 255, 47);
+    background-color: rgb(77, 77, 77);
+    border: 2px dashed rgb(4, 0, 255);
+    text-decoration: underline;
+}
+
+.galaxy {
+    width: 350px;
+    height: 350px;
+    background-color: #dbdbe0ef;
+    border-radius: 20px;
+    padding: 25px 25px 0 25px;
+    color: #000000;
+    display: inline-block;
+    text-align: center;
+    display: line block;
+    flex-wrap: wrap;
+}
+
+.galaxy>button {
+    font-size: 20px;
+    background-color: #000;
+    margin-left: 800px;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px
+}
+
+.galaxy>button:hover {
+    color: rgb(0, 255, 47);
+    background-color: rgb(77, 77, 77);
+    border: 2px dashed rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        box-shadow: 0 0 5px rgb(4, 0, 255);
+    }
+
+    50% {
+        color: rgb(25, 0, 255);
+        box-shadow: 0 0 35px rgb(4, 0, 255);
+    }
+
+    25% {
+        color: rgb(2 55, 2, 2);
+        box-shadow: 0 0 35px rgb(255, 0, 0);
+    }
+}
+
+.box-oxir {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.box-oxir>h1 {
+    font-size: 64px;
+}
+
+.box-oxir>input {
+    padding-left: 10px;
+    text-align: start;
+    margin-left: 600px;
+    font-size: 54px;
+    border-radius: 30px;
+    background-color: #dbdbe0ef;
+    text-decoration: dashed;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.box-oxir>input:focus {
+    width: 900px;
+    height: 90px;
+    background-color: #7a7a7aef;
+    color: aqua;
+}
+
+.box-oxir>a {
+    font-size: 20px;
+    padding: 10px;
+    display: auto;
+    border-radius: 80px;
+    border: 2px solid rgb(109, 109, 109);
+
+
+}
+
+.box-oxir>a:hover {
+    background-color: #bebebe;
+    border: 2px dashed rgb(255, 0, 0);
+}
+
+.card-video {
+    background-color: #000;
+    width: 0px;
+    height: 90px;
+}
+
+.card-video-2 {
+    margin-right: 1000px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+
+}
